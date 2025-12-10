@@ -5,7 +5,7 @@
 
 ## ⚙️ Funcionamento
 > 1. O LDR está configurado em um divisor de tensão para medir a intensidade da luz ambiente.
-> 2. O Arduino lê o valor analógico do LDR ($$de 0 a 1023$$) e o converte para Volts ($$de 0 a 5V$$).
+> 2. O Arduino lê o valor analógico do LDR ($$ de 0 a 1023 $$) e o converte para Volts ($$ de 0 a 5V $$).
 > 3. Quando a tensão lida está baixa (indicando que a resistência do LDR está alta, ou seja, está escuro), o LED é ativado (acende).
 
 > A conversão de Volts é feita pela fórmula: $$V_{\text{LDR}} = \left(\frac{\text{Leitura Analógica}}{1023}\right) \times 5$$
@@ -18,5 +18,10 @@
 * 1x Resistor de $220\Omega$ (para o LED)
 * Protoboard e Jumpers
 
-## Conexões (Esquema de Circuito)
+## 🔌 Conexões (Esquema de Circuito)
 ![](projeto.jpg)
+
+## ✅ Resultado Final 
+
+https://github.com/user-attachments/assets/8f740279-3bad-4fd0-8589-9d792362f899
+
